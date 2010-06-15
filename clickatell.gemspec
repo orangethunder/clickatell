@@ -4,11 +4,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{clickatell}
-  s.version = "0.7.1"
+  s.name = %q{clickatell-ruby19}
+  s.version = "0.7.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Luke Redpath"]
+  s.authors = ["Luke Redpath","Ahmed Al Hafoudh"]
   s.date = %q{2009-12-01}
   s.default_executable = %q{sms}
   s.email = %q{luke@lukeredpath.co.uk}
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "RDOC_README.txt"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Ruby interface to the Clickatell SMS gateway service.}
+  s.summary = %q{Ruby 1.9 compatible interface to the Clickatell SMS gateway service. }
   s.test_files = [
     "spec/api_spec.rb",
      "spec/cli_options_test.rb",

@@ -6,11 +6,11 @@ begin
   require 'jeweler'
   
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "clickatell"
+    gemspec.name = "clickatell-ruby19"
     gemspec.summary = "Ruby interface to the Clickatell SMS gateway service."
     gemspec.email = "luke@lukeredpath.co.uk"
     gemspec.homepage = "http://clickatell.rubyforge.org"
-    gemspec.authors = ["Luke Redpath"]
+    gemspec.authors = ["Luke Redpath", "Ahmed Al Hafoudh"]
     gemspec.executables = %w{sms}
     gemspec.extra_rdoc_files = %w{RDOC_README.txt History.txt License.txt}
     gemspec.has_rdoc = true
