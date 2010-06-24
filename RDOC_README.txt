@@ -31,3 +31,9 @@ You can then use the sms utility to send a message to a single recipient:
 Alternatively, you can specify the username and password as a command line option. Run +sms+ without any arguments for a full list of options.
 
 See http://clickatell.rubyforge.org for further instructions.  
+
+== Usage with Rails
+
+Because the ruby 1.9 version is published under a different name, you need to specify the lib name with rails.  E.g. in Rails 2.3:
+
+  config.gem 'clickatell-ruby19', :lib => 'clickatell', :version => '0.7.1'

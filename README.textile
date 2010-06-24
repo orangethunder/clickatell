@@ -38,3 +38,9 @@ The sms utility also supports multiple, comma-separated recipients (up to 100).
   sms 447771111111,447772222222 "Hello everyone"
 
 See http://clickatell.rubyforge.org for further instructions.  
+
+h2. Usage with Rails
+
+Because the ruby 1.9 version is published under a different name, you need to specify the lib name with rails.  E.g. in Rails 2.3:
+
+  config.gem 'clickatell-ruby19', :lib => 'clickatell', :version => '0.7.1'
